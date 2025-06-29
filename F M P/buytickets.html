@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tickit page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./buytickets.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top custom-navbar">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-primary" href="./login.html">🏏 SportsZone</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./shop.html">Shop</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Categories</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./circketbats.html">Cricket Bats</a></li>
+            <li><a class="dropdown-item" href="./circketbats.html">Football</a></li>
+            <li><a class="dropdown-item" href="./circketbats.html">Gym Gear</a></li>
+            <li><a class="dropdown-item" href="./circketbats.html">Cricket Nets</a></li>
+            <li><a class="dropdown-item" href="./circketbats.html">Baskit Balls</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="./circketbats.html">Accessories</a></li>
+        <li class="nav-item"><a class="nav-link" href="./buytickets.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contact page.html">Contact</a></li>
+      </ul>
+
+      <form class="d-flex align-items-center search-form position-relative">
+        <input type="text" class="form-control form-control-sm animated-search" placeholder="Search products..." />
+        <i class="bi bi-search search-icon"></i>
+      </form>
+
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item me-2">
+          <a class="nav-link" href="./circketbats.html"><i class="bi bi-cart"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-primary btn-login" href="./login.html"><i class="bi bi-person"></i> Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="hero">
+  <h1>Champions Clash Tonight</h1>
+  <p>Don't miss the epic showdown between Team A and Team B — Live at 8 PM!</p>
+  <div class="buttons">
+    <a href="./buytickets.html" class="buy">Buy Tickets</a>
+    <a href="#" class="watch">Watch Live</a>
+  </div>
+</div>
+
+
+
+ <div class="live-ticker">
+  <marquee behavior="scroll" direction="left">
+    🏏 PAK 245/4 (42.3 ov) vs IND | ⚽ LIVERPOOL 2 - 1 CHELSEA | 🏀 Lakers 102 - 98 Warriors | 🏐 Baskitball: Pak vs Iran today 5PM
+  </marquee>
+</div>
+  <center>  
+<div class="ticket-form">
+    <h1>Buy Match Tickets</h1>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+      <label for="match">Select Match</label>
+      <select id="match" name="match" required>
+        <option value="" disabled selected>Select a match</option>
+        <option value="football">Football:Manchester United vs Liverpool </option>
+        <option value="cricket">Cricket: Pakistan vs India</option>
+        <option value="basketball">Basketball: Los Angeles Lakers (NBA - USA) vs Chicago Bulls (NBA - USA)</option>
+      </select>
+
+      <label for="tickets">Number of Tickets</label>
+      <input type="number" id="tickets" name="tickets" min="1" max="10" value="1" required />
+
+      <button type="submit">Buy Tickets</button>
+    </form>
+  </div>
+</center>
+
+<h2 class="cricketTickets">Cricket Match Tickets </h2>
+   <div class="container">
+
+    <div class="ticket-card">
+      <h3>🏏 Pakistan vs India</h3>
+      <ul class="match-info">
+        <li><strong>📍 Venue:</strong> Gaddafi Stadium, Lahore,Pakistan</li>
+        <li><strong>🗓️ Day:</strong> Saturday</li>
+        <li><strong>📅 Date:</strong> 10 August 2025</li>
+        <li><strong>🕒 Time:</strong> 7:30 PM (PKT)</li>
+         <a href="#booking-form" class="book-now-btn">Book Now</a>
+      </ul>
+    </div>
+
+  
+    <div class="ticket-card">
+      <h3>🏏 Pakistan vs India</h3>
+      <ul class="match-info">
+        <li><strong>📍 Venue:</strong> Narendra Modi Stadium, Ahmedabad</li>
+        <li><strong>🗓️ Day:</strong> Sunday</li>
+        <li><strong>📅 Date:</strong> 24 August 2025</li>
+        <li><strong>🕒 Time:</strong> 6:00 PM (IST)</li>
+         <a href="#booking-form" class="book-now-btn">Book Now</a>
+      </ul>
+    </div>
+</div>
+
+<h2 class="cricketTickets">Football Match Tickets </h2>
+  <div class="container">
+  
+    <div class="ticket-card">
+      <h3>Pakistan vs India</h3>
+      <ul class="match-info">
+        <li><strong>📍 Venue:</strong> Australia</li>
+        <li><strong>🗓️ Day:</strong> Saturday</li>
+        <li><strong>📅 Date:</strong> 19 August 2025</li>
+        <li><strong>🕒 Time:</strong> 7:30 PM (IST) </li>
+         <a href="#booking-form" class="book-now-btn">Book Now</a>
+      </ul>
+    </div>
+
+ 
+    <div class="ticket-card">
+      <h3> Manchester United vs Liverpool</h3>
+      <ul class="match-info">
+        <li><strong>📍 Venue:</strong> Japan</li>
+        <li><strong>🗓️ Day:</strong> Tuesday</li>
+        <li><strong>📅 Date:</strong> August 2, 2025<br></li>
+        <li><strong>🕒 Time:</strong> 6:30 PM (IST)</li>
+         <a href="#booking-form" class="book-now-btn">Book Now</a>
+      </ul>
+    </div>  
+</div>
+
+
+<h2 class="cricketTickets">Baskit Ball Match Tickets </h2>
+  <div class="container">
+  
+    <div class="ticket-card">
+      <h3>Los Angeles Lakers (NBA - USA) vs Chicago Bulls (NBA - USA)</h3>
+      <ul class="match-info">
+        <li><strong>📍 Venue:</strong> Australia</li>
+        <li><strong>🗓️ Day:</strong> Saturday</li>
+        <li><strong>📅 Date:</strong> 19 August 2025</li>
+        <li><strong>🕒 Time:</strong> 7:30 PM (IST) </li>
+         <a href="#booking-form" class="book-now-btn">Book Now</a>
+      </ul>
+    </div>
+
+ 
+    <div class="ticket-card">
+      <h3> Real Madrid Baloncesto (Spain - Europe) vs Fenerbahçe Basketball (Turkey - Europe)</h3>
+      <ul class="match-info">
+        <li><strong>📍 Venue:</strong> Japan</li>
+        <li><strong>🗓️ Day:</strong> Tuesday</li>
+        <li><strong>📅 Date:</strong> August 2, 2025<br></li>
+        <li><strong>🕒 Time:</strong> 6:30 PM (IST)</li>
+         <a href="#booking-form" class="book-now-btn">Book Now</a>
+      </ul>
+    </div>  
+</div>
+
+<footer class="bg-dark text-white pt-5 pb-3 mt-5">
+  <div class="container">
+    <div class="row">
+   
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold text-primary">🏏 SportsZone</h5>
+        <p>Your one-stop shop for premium sports gear in Pakistan. Quality guaranteed!</p>
+      </div>
+
+      
+      <div class="col-md-2 mb-4">
+        <h6 class="text-uppercase fw-bold">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="./index.html" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="./shop.html" class="text-white text-decoration-none">Shop</a></li>
+          <li><a href="./circketbats.html" class="text-white text-decoration-none">Accessories</a></li>
+          <li><a href="./buytickets.html" class="text-white text-decoration-none">About</a></li>
+          <li><a href="./contact page.html" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase fw-bold">Contact</h6>
+        <p><i class="bi bi-geo-alt-fill me-2"></i> Karachi, Pakistan</p>
+        <p><i class="bi bi-envelope-fill me-2"></i> WWW.sportszone.fun</p>
+        <p><i class="bi bi-telephone-fill me-2"></i> +92 3121051767</p>
+      </div>
+
+      
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase fw-bold">Follow Us</h6>
+        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-youtube"></i></a>
+      </div>
+    </div>
+
+    <hr class="border-light">
+
+    <div class="text-center">
+      <p class="mb-0">&copy; 2025 <strong>SportsZone</strong>. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>

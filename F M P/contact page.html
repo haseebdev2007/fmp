@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us - SportsZone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./contact.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top custom-navbar">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-primary" href="./login.html">🏏 SportsZone</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./shop.html">Shop</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Categories</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./circketbats.html">Cricket Bats</a></li>
+            <li><a class="dropdown-item" href="./circketbats.html">Football</a></li>
+            <li><a class="dropdown-item" href="./circketbats.html">Gym Gear</a></li>
+            <li><a class="dropdown-item" href="./circketbats.html">Cricket Nets</a></li>
+            <li><a class="dropdown-item" href="./circketbats.html">Baskit Balls</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="./circketbats.html">Accessories</a></li>
+        <li class="nav-item"><a class="nav-link" href="./buytickets.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contact page.html">Contact</a></li>
+      </ul>
+
+      <form class="d-flex align-items-center search-form position-relative">
+        <input type="text" class="form-control form-control-sm animated-search" placeholder="Search products..." />
+        <i class="bi bi-search search-icon"></i>
+      </form>
+
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item me-2">
+          <a class="nav-link" href="./circketbats.html"><i class="bi bi-cart"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-primary btn-login" href="./login.html"><i class="bi bi-person"></i> Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>Champions Clash Tonight</h1>
+  <p>Don't miss the epic showdown between Team A and Team B — Live at 8 PM!</p>
+  <div class="buttons">
+    <a href="./buytickets.html" class="buy">Buy Tickets</a>
+    <a href="#" class="watch">Watch Live</a>
+  </div>
+</div>
+
+
+ <div class="live-ticker">
+  <marquee behavior="scroll" direction="left">
+    🏏 PAK 245/4 (42.3 ov) vs IND | ⚽ LIVERPOOL 2 - 1 CHELSEA | 🏀 Lakers 102 - 98 Warriors | 🏐 Baskitball: Pak vs Iran today 5PM
+  </marquee>
+</div>
+
+
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center fw-bold text-primary mb-3">Get in Touch</h2>
+    <p class="text-center text-muted mb-5">We'd love to hear from you. Reach out with any questions or feedback.</p>
+
+    <div class="row g-5">
+      
+      <div class="col-lg-7">
+        <div class="bg-white p-4 rounded shadow-sm">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" placeholder="Your subject" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary rounded-pill px-4">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+    
+      <div class="col-lg-5">
+        <div class="bg-white p-4 rounded shadow-sm h-100 text-black">
+          <h5 class="fw-bold text-dark mb-4">Contact Information</h5>
+          <p class="mb-2"><i class="bi bi-geo-alt-fill text-primary me-2"></i> Baldia Town Karachi,Karachi,Pakistan</p>
+          <p class="mb-2"><i class="bi bi-envelope-fill text-primary me-2"></i> contact@sportszone.pk</p>
+          <p class="mb-4"><i class="bi bi-telephone-fill text-primary me-2"></i> +92 300 1234567</p>
+
+          <h6 class="fw-semibold text-secondary">Follow Us</h6>
+          <div class="d-flex gap-3 fs-5 mt-2">
+            <a href="#" class="text-primary"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-danger"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-info"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-white pt-5 pb-3 mt-5">
+  <div class="container">
+    <div class="row">
+   
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold text-primary">🏏 SportsZone</h5>
+        <p>Your one-stop shop for premium sports gear in Pakistan. Quality guaranteed!</p>
+      </div>
+
+      
+      <div class="col-md-2 mb-4">
+        <h6 class="text-uppercase fw-bold">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="./index.html" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="./shop.html" class="text-white text-decoration-none">Shop</a></li>
+          <li><a href="./circketbats.html" class="text-white text-decoration-none">Accessories</a></li>
+          <li><a href="./buytickets.html" class="text-white text-decoration-none">About</a></li>
+          <li><a href="./contact page.html" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase fw-bold">Contact</h6>
+        <p><i class="bi bi-geo-alt-fill me-2"></i> Karachi, Pakistan</p>
+        <p><i class="bi bi-envelope-fill me-2"></i> WWW.sportszone.fun</p>
+        <p><i class="bi bi-telephone-fill me-2"></i> +92 3121051767</p>
+      </div>
+
+      
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase fw-bold">Follow Us</h6>
+        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-youtube"></i></a>
+      </div>
+    </div>
+
+    <hr class="border-light">
+
+    <div class="text-center">
+      <p class="mb-0">&copy; 2025 <strong>SportsZone</strong>. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | Haseeb Sports</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./login.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+</head>
+<body>
+    
+
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top custom-navbar">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-primary" href="./login.html">🏏 SportsZone</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./shop.html">Shop</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Categories</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./circketbats.html">Cricket Bats</a></li>
+            <li><a class="dropdown-item" href="./circketbats.html">Football</a></li>
+            <li><a class="dropdown-item" href="./circketbats.html">Gym Gear</a></li>
+            <li><a class="dropdown-item" href="./circketbats.html">Cricket Nets</a></li>
+            <li><a class="dropdown-item" href="./circketbats.html">Baskit Balls</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="./circketbats.html">Accessories</a></li>
+        <li class="nav-item"><a class="nav-link" href="./buytickets.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contact page.html">Contact</a></li>
+      </ul>
+
+      <form class="d-flex align-items-center search-form position-relative">
+        <input type="text" class="form-control form-control-sm animated-search" placeholder="Search products..." />
+        <i class="bi bi-search search-icon"></i>
+      </form>
+
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item me-2">
+          <a class="nav-link" href="./circketbats.html"><i class="bi bi-cart"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-primary btn-login" href="./login.html"><i class="bi bi-person"></i> Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container mt-5">
+  <div class="login-card">
+    <h2>Login to Sports Zone</h2>
+    <form>
+      <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <input type="text" class="form-control" id="username" placeholder="Your Username" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="mobile" class="form-label">Mobile Number</label>
+        <input type="tel" class="form-control" id="mobile" placeholder="03XX-XXXXXXX" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="player" class="form-label">Favorite Player</label>
+        <select class="form-select" id="player" required>
+          <option selected disabled>Choose one</option>
+          <option value="babar">Babar Azam</option>
+          <option value="kohli">Virat Kohli</option>
+          <option value="warner">David Warner</option>
+          <option value="shaheen">Shaheen Afridi</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Enter password" required>
+      </div>
+
+      <button type="submit" class="btn w-100 btn-login">Login</button>
+      <small class="d-block text-center mt-3">Don't have an account? <a href="#">Register here</a></small>
+    </form>
+  </div>
+</div>
+
+<footer class="bg-dark text-white pt-5 pb-3 mt-5">
+  <div class="container">
+    <div class="row">
+   
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold text-primary">🏏 SportsZone</h5>
+        <p>Your one-stop shop for premium sports gear in Pakistan. Quality guaranteed!</p>
+      </div>
+
+      
+      <div class="col-md-2 mb-4">
+        <h6 class="text-uppercase fw-bold">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="./index.html" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="./shop.html" class="text-white text-decoration-none">Shop</a></li>
+          <li><a href="./circketbats.html" class="text-white text-decoration-none">Accessories</a></li>
+          <li><a href="./buytickets.html" class="text-white text-decoration-none">About</a></li>
+          <li><a href="./contact page.html" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase fw-bold">Contact</h6>
+        <p><i class="bi bi-geo-alt-fill me-2"></i> Karachi, Pakistan</p>
+        <p><i class="bi bi-envelope-fill me-2"></i> WWW.sportszone.fun</p>
+        <p><i class="bi bi-telephone-fill me-2"></i> +92 3121051767</p>
+      </div>
+
+      
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase fw-bold">Follow Us</h6>
+        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-youtube"></i></a>
+      </div>
+    </div>
+
+    <hr class="border-light">
+
+    <div class="text-center">
+      <p class="mb-0">&copy; 2025 <strong>SportsZone</strong>. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+
+    .ticket-form {
+      background: rgba(0,0,0,0.7);
+      padding: 40px 30px;
+      border-radius: 15px;
+      margin-top: 40px;
+      max-width: 420px;
+      width: 100%;
+      box-shadow: 0 0 20px rgba(255,255,255,0.1);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2.5rem;
+      color: #ffd700;
+      letter-spacing: 2px;
+      font-weight: 700;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    input[type="text"],
+    input[type="email"],
+    select,
+    input[type="number"] {
+      width: 100%;
+      padding: 12px 10px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    input[type="number"]::-webkit-inner-spin-button, 
+    input[type="number"]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+    }
+    input[type="number"] {
+      -moz-appearance: textfield;
+    }
+    button {
+      width: 100%;
+      padding: 14px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      background: #ffd700;
+      color: #000428;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #e6c200;
+    }
+    @media(max-width: 450px) {
+      .ticket-form {
+        padding: 30px 20px;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+    }
+
+     body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f3f4f6;
+      margin: 0;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: space-evenly;
+    }
+
+    .ticket-card {
+      background: linear-gradient(to right, #ffffff, #f9fafb);
+      border: 1px solid #ddd;
+      border-left: 8px solid #1f2937;
+      border-radius: 10px;
+      width: 320px;
+      padding: 25px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .ticket-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+
+    .ticket-card h3 {
+      margin-top: 0;
+      font-size: 22px;
+      color: #111827;
+      text-align: center;
+    }
+
+    .match-info {
+      list-style: none;
+      padding: 0;
+      margin-top: 15px;
+    }
+
+    .match-info li {
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #374151;
+    }
+
+    .match-info li strong {
+      color: #111827;
+    }
+
+    /* Responsive tweaks */
+    @media (max-width: 600px) {
+      .ticket-card {
+        width: 100%;
+      }
+    }
+
+
+    .book-now-btn {
+      display: inline-block;
+      background-color: #ff5722;
+      color: white;
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    .book-now-btn:hover {
+      background-color: #e64a19;
+    }
+
+.cricketTickets{
+    font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #222;
+  background: linear-gradient(to right, #e53935, #e35d5b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  font-weight: bold;
+  margin-top: 30px;
+  }
+  
